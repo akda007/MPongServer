@@ -11,7 +11,7 @@ interface UserEvent {
 const clientManager = new ClientManager();
 const matchManager = new MatchManager();
 
-const port = 8080;
+const port = 10000;
 const server = app.listen(port, () => console.log("Server started!"));
 const wss = new WebSocketServer({ server });
 
